@@ -1,8 +1,8 @@
-# PIXELVAULT Retro Gaming Store
+# PIXELVAULT Retro Gaming Store — V2
 
 A premium static e-commerce storefront concept for classic consoles, retro games, controllers, arcade gear, accessories and collectibles.
 
-## Highlights
+## V2 Highlights
 
 - 24 product entries across 9 departments
 - Responsive desktop/tablet/mobile layout
@@ -14,6 +14,12 @@ A premium static e-commerce storefront concept for classic consoles, retro games
 - Curated collections
 - Journal/editorial section
 - Dedicated support center
+- FAQ accordion
+- Recently viewed products
+- Newsletter signup interaction
+- Trust/service strip
+- Weekend drop promotional section
+- Toast notifications for key actions
 - Support phone and email contact
 - Lightweight local image assets
 - No external framework or build step required
@@ -43,3 +49,18 @@ HTML5 • CSS3 • JavaScript • LocalStorage
 Project in development.
 
 © 2026 PIXELVAULT Retro Gaming
+
+## V2 Direction
+
+V2 keeps the original storefront structure that made the first release successful while adding stronger merchandising and retention elements:
+
+- clearer trust messaging
+- a promotional product drop
+- recently viewed products
+- FAQ content
+- newsletter capture
+- richer footer navigation
+- lightweight toast feedback
+- stronger mobile behavior
+
+The project remains static and dependency-free for easy GitHub Pages deployment.

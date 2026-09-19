@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<div class="announcement">FREE SHIPPING ON ORDERS OVER $75 <span>•</span> SUPPORT AVAILABLE 7 DAYS A WEEK</div>
+<div class="announcement">V2 • FREE SHIPPING ON ORDERS OVER $75 <span>•</span> SUPPORT AVAILABLE 7 DAYS A WEEK</div>
 
 <header class="site-header">
   <a class="brand" href="#home" aria-label="PIXELVAULT home">
@@ -17,7 +17,7 @@
     <div><strong>PIXELVAULT</strong><small>CLASSIC GAMES. TIMELESS MEMORIES.</small></div>
   </a>
   <nav class="main-nav" aria-label="Main navigation">
-    <a href="#shop">Shop</a><a href="#collections">Collections</a><a href="#story">Our Story</a><a href="#journal">Journal</a><a href="#support">Support</a>
+    <a href="#shop">Shop</a><a href="#collections">Collections</a><a href="#story">Our Story</a><a href="#journal">Journal</a><a href="#support">Support</a><a href="#faq">FAQ</a>
   </nav>
   <div class="header-actions">
     <button class="icon-btn" id="searchBtn" aria-label="Search">⌕</button>
@@ -47,6 +47,12 @@
 </section>
 
 <section class="ticker"><div>CONSOLES</div><div>CARTRIDGES</div><div>ARCADE</div><div>CONTROLLERS</div><div>COLLECTIBLES</div><div>ACCESSORIES</div></section>
+<section class="trust-strip">
+  <div><span>01</span><b>Curated retro catalog</b><small>Focused collections for classic gaming.</small></div>
+  <div><span>02</span><b>Fast support</b><small>Friendly help 7 days a week.</small></div>
+  <div><span>03</span><b>Protected checkout</b><small>Production-ready payment integration path.</small></div>
+  <div><span>04</span><b>Collector minded</b><small>Built for players and collectors.</small></div>
+</section>
 
 <section class="section" id="collections">
   <div class="section-head"><div><span class="eyebrow">CURATED COLLECTIONS</span><h2>Find your era.</h2></div><p>From living-room consoles to desktop arcade gear, PIXELVAULT brings the visual language of classic gaming into one organized collection.</p></div>
@@ -56,6 +62,11 @@
     <a class="collection-card c3" href="#shop" data-category="Controllers"><span>03</span><h3>Arcade Controls</h3><p>Controllers and sticks made for serious retro sessions.</p><b>View controllers →</b></a>
     <a class="collection-card c4" href="#shop" data-category="Collectibles"><span>04</span><h3>Collector Corner</h3><p>Display pieces and accessories for your gaming space.</p><b>Explore collectibles →</b></a>
   </div>
+</section>
+
+<section class="drop-banner">
+  <div><span class="eyebrow">THE WEEKEND DROP</span><h2>Retro essentials, freshly curated.</h2><p>Explore selected consoles, controls and accessories chosen for a clean starter setup.</p></div>
+  <a class="btn primary" href="#shop">Shop the drop</a>
 </section>
 
 <section class="section shop-section" id="shop">
@@ -95,6 +106,27 @@
   </div>
 </section>
 
+<section class="section recently" id="recently">
+  <div class="section-head"><div><span class="eyebrow">KEEP EXPLORING</span><h2>Recently viewed.</h2></div><p>Your last product views are kept in this browser for a faster return.</p></div>
+  <div class="recent-grid" id="recentGrid"><div class="empty">Open a product with Quick View to see it here.</div></div>
+</section>
+
+<section class="faq-section" id="faq">
+  <div class="section-head"><div><span class="eyebrow">FAQ</span><h2>Quick answers.</h2></div><p>Common questions about products, support, compatibility and the demo storefront.</p></div>
+  <div class="faq-grid">
+    <details open><summary>Are the products connected to real inventory?</summary><p>This V2 is a static storefront concept. Product entries and prices are demo catalog data and are not connected to live inventory.</p></details>
+    <details><summary>Can I connect real payments later?</summary><p>Yes. The cart is structured so a production checkout provider or custom backend can be connected without redesigning the storefront.</p></details>
+    <details><summary>How do I ask about compatibility?</summary><p>Use the support form or contact support@pixelvault.example with the console, accessory and display details you are working with.</p></details>
+    <details><summary>Are the product images external?</summary><p>No. The included catalog images are stored locally inside the ZIP so the storefront can render without depending on remote image URLs.</p></details>
+  </div>
+</section>
+
+<section class="newsletter">
+  <div><span class="eyebrow">JOIN THE VAULT</span><h2>Get the next drop.</h2><p>Receive launch notes, new collection announcements and retro setup articles.</p></div>
+  <form id="newsletterForm"><input type="email" required placeholder="Email address" aria-label="Email address"><button class="btn primary">Subscribe</button></form>
+  <p id="newsletterNote"></p>
+</section>
+
 <section class="support" id="support">
   <div class="support-copy"><span class="eyebrow">SUPPORT CENTER</span><h2>Need a hand with your setup?</h2><p>Questions about compatibility, accessories, product details or an order? Our support team is here to help.</p>
     <div class="support-cards"><div><span>EMAIL</span><b>support@pixelvault.example</b><small>Replies within one business day.</small></div><div><span>PHONE</span><b>+1 (305) 555-0198</b><small>Mon–Sun · 9:00 AM–7:00 PM ET</small></div><div><span>ORDER HELP</span><b>Order Assistance</b><small>Have your order number ready.</small></div></div>
@@ -106,11 +138,12 @@
 <footer class="footer">
   <div class="footer-brand"><strong>PIXELVAULT</strong><p>Classic Games. Timeless Memories.</p></div>
   <div><h4>Shop</h4><a href="#shop">All products</a><a href="#collections">Collections</a><a href="#shop">Bundles</a></div>
-  <div><h4>Company</h4><a href="#story">Our story</a><a href="#journal">Journal</a><a href="#support">Support</a></div>
+  <div><h4>Company</h4><a href="#story">Our story</a><a href="#journal">Journal</a><a href="#faq">FAQ</a><a href="#support">Support</a></div>
   <div><h4>Contact</h4><a href="mailto:support@pixelvault.example">support@pixelvault.example</a><a href="tel:+13055550198">+1 (305) 555-0198</a></div>
   <div class="copyright">© 2026 PIXELVAULT Retro Gaming. Demo storefront concept.</div>
 </footer>
 
+<div class="toast" id="toast"></div>
 <div class="overlay" id="overlay"></div>
 <aside class="drawer" id="cartDrawer" aria-label="Shopping cart"><div class="drawer-head"><h3>Your Cart</h3><button class="close" data-close="cartDrawer">×</button></div><div id="cartItems" class="drawer-body"></div><div class="drawer-total"><span>Subtotal</span><strong id="cartSubtotal">$0.00</strong></div><button class="btn primary wide" id="checkoutBtn">Checkout</button><p class="tiny">Demo storefront — checkout is not connected to a payment provider.</p></aside>
 <aside class="drawer" id="wishDrawer" aria-label="Wishlist"><div class="drawer-head"><h3>Wishlist</h3><button class="close" data-close="wishDrawer">×</button></div><div id="wishItems" class="drawer-body"></div></aside>
@@ -122,6 +155,7 @@ const PRODUCTS = [{"id": 1, "name": "Classic 8-Bit Console", "category": "Consol
 const CATEGORIES = ["All", "Consoles", "Games", "Controllers", "Handhelds", "Accessories", "Arcade", "Bundles", "Care", "Collectibles"];
 let cart = JSON.parse(localStorage.getItem('pv-cart') || '[]');
 let wishlist = JSON.parse(localStorage.getItem('pv-wishlist') || '[]');
+let recent = JSON.parse(localStorage.getItem('pv-recent') || '[]');
 
 const gridEl = document.getElementById('productGrid');
 const filtersEl = document.getElementById('filters');
@@ -129,7 +163,23 @@ const searchInput = document.getElementById('searchInput');
 const sortSelect = document.getElementById('sortSelect');
 
 function money(v) { return new Intl.NumberFormat('en-US', {style:'currency',currency:'USD'}).format(v); }
-function save() { localStorage.setItem('pv-cart', JSON.stringify(cart)); localStorage.setItem('pv-wishlist', JSON.stringify(wishlist)); updateCounts(); }
+function save() { localStorage.setItem('pv-cart', JSON.stringify(cart)); localStorage.setItem('pv-wishlist', JSON.stringify(wishlist)); localStorage.setItem('pv-recent', JSON.stringify(recent)); updateCounts(); }
+function toast(message) {
+  let t=document.getElementById('toast');
+  if(!t){t=document.createElement('div');t.id='toast';document.body.appendChild(t);}
+  t.textContent=message;t.classList.add('show');clearTimeout(window.__toast);
+  window.__toast=setTimeout(()=>t.classList.remove('show'),2200);
+}
+function addRecent(id){
+  recent=[id,...recent.filter(x=>x!==id)].slice(0,6);
+  save();renderRecent();
+}
+function renderRecent(){
+  const el=document.getElementById('recentGrid'); if(!el)return;
+  const items=PRODUCTS.filter(p=>recent.includes(p.id));
+  el.innerHTML=items.length ? items.map(productCard).join('') : '<div class="empty">Open a product with Quick View to see it here.</div>';
+  if(items.length) bindCards();
+}
 function updateCounts() {
   document.getElementById('cartCount').textContent = cart.reduce((s,x)=>s+x.qty,0);
   document.getElementById('wishCount').textContent = wishlist.length;
@@ -165,7 +215,7 @@ function bindCards() {
 function addToCart(id) {
   const p=PRODUCTS.find(x=>x.id===id); const found=cart.find(x=>x.id===id);
   if(found) found.qty++; else cart.push({id,qty:1});
-  save(); openDrawer('cartDrawer'); renderCart();
+  save(); toast(p.name+' added to cart'); openDrawer('cartDrawer'); renderCart();
 }
 function toggleWish(id) {
   wishlist = wishlist.includes(id) ? wishlist.filter(x=>x!==id) : [...wishlist,id];
@@ -187,7 +237,7 @@ function renderWishlist() {
 }
 function quickView(id) {
   const p=PRODUCTS.find(x=>x.id===id);
-  document.getElementById('modalContent').innerHTML=`<div class="modal-product"><img src="assets/images/${p.img}" alt="${p.name}"><div><span class="eyebrow">${p.category}</span><h2>${p.name}</h2><p>${p.desc}</p><div class="modal-price">${money(p.price)}</div><p class="specs">${p.specs}</p><button class="btn primary" onclick="addToCart(${p.id});closeAll()">Add to cart</button></div></div>`;
+  addRecent(id); document.getElementById('modalContent').innerHTML=`<div class="modal-product"><img src="assets/images/${p.img}" alt="${p.name}"><div><span class="eyebrow">${p.category}</span><h2>${p.name}</h2><p>${p.desc}</p><div class="modal-price">${money(p.price)}</div><p class="specs">${p.specs}</p><button class="btn primary" onclick="addToCart(${p.id});closeAll()">Add to cart</button></div></div>`;
   document.getElementById('productModal').classList.add('open');
 }
 let currentCategory='All';
@@ -201,9 +251,11 @@ document.getElementById('searchBtn').onclick=()=>{document.getElementById('searc
 searchInput.oninput=()=>renderProducts(currentCategory,searchInput.value);
 sortSelect.onchange=()=>renderProducts(currentCategory,searchInput.value);
 document.querySelectorAll('.collection-card').forEach(c=>c.onclick=()=>{currentCategory=c.dataset.category; document.getElementById('shop').scrollIntoView({behavior:'smooth'}); renderProducts(currentCategory,'')});
-document.getElementById('checkoutBtn').onclick=()=>alert('Demo checkout: connect your preferred payment provider before launch.');
+document.getElementById('checkoutBtn').onclick=()=>toast('Demo checkout — connect your payment provider before launch.');
+document.getElementById('newsletterForm').onsubmit=(e)=>{e.preventDefault();document.getElementById('newsletterNote').textContent='You are on the list. Welcome to the vault!';e.target.reset();toast('Welcome to PIXELVAULT!');};
+renderRecent();
 document.getElementById('supportForm').onsubmit=(e)=>{e.preventDefault();document.getElementById('formNote').textContent='Thanks! Your support request is ready to be connected to your email/helpdesk service.';e.target.reset();};
-renderProducts(); updateCounts();
+renderProducts(); renderRecent(); updateCounts();
 </script>
 </body>
 </html>
