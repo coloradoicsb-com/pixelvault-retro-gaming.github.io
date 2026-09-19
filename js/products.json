@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "name": "Classic 8-Bit Console",
+    "category": "Consoles",
+    "price": 89.99,
+    "badge": "Retro Pick",
+    "img": "01-classic-8bit-console.jpg",
+    "desc": "Compact classic-style console for a nostalgic living-room setup.",
+    "specs": "AV output \u2022 2 controller ports \u2022 Compact design"
+  },
+  {
+    "id": 2,
+    "name": "16-Bit Retro Console",
+    "category": "Consoles",
+    "price": 119.99,
+    "badge": "Featured",
+    "img": "02-16bit-console.jpg",
+    "desc": "A sleek 16-bit inspired system built for classic game nights.",
+    "specs": "HD-ready adapter support \u2022 2 ports \u2022 Retro styling"
+  },
+  {
+    "id": 3,
+    "name": "Pocket Pixel Handheld",
+    "category": "Handhelds",
+    "price": 74.99,
+    "badge": "New",
+    "img": "03-retro-handheld.jpg",
+    "desc": "Pocket-sized handheld with a clean, nostalgic silhouette.",
+    "specs": "Portable form factor \u2022 D-pad \u2022 Color display"
+  },
+  {
+    "id": 4,
+    "name": "Classic Gamepad",
+    "category": "Controllers",
+    "price": 29.99,
+    "badge": "Best Seller",
+    "img": "04-classic-controller.jpg",
+    "desc": "Comfortable wired controller inspired by the classic era.",
+    "specs": "Wired \u2022 D-pad \u2022 Dual action buttons"
+  },
+  {
+    "id": 5,
+    "name": "Wireless Retro Controller",
+    "category": "Controllers",
+    "price": 39.99,
+    "badge": "Popular",
+    "img": "05-wireless-controller.jpg",
+    "desc": "Modern wireless convenience with a timeless controller layout.",
+    "specs": "Wireless \u2022 Dual sticks \u2022 Rechargeable"
+  },
+  {
+    "id": 6,
+    "name": "Arcade Fight Stick",
+    "category": "Controllers",
+    "price": 69.99,
+    "badge": "Arcade",
+    "img": "06-arcade-stick.jpg",
+    "desc": "Full-size arcade controls for fighting games and arcade classics.",
+    "specs": "Joystick \u2022 6-button layout \u2022 Desktop base"
+  },
+  {
+    "id": 7,
+    "name": "Classic Cartridge",
+    "category": "Games",
+    "price": 24.99,
+    "badge": "Collector",
+    "img": "07-cartridge.jpg",
+    "desc": "Physical cartridge-style collectible for classic gaming shelves.",
+    "specs": "Cartridge format \u2022 Display ready \u2022 Collector item"
+  },
+  {
+    "id": 8,
+    "name": "Cartridge Collection Set",
+    "category": "Games",
+    "price": 54.99,
+    "badge": "Bundle",
+    "img": "08-cartridge-stack.jpg",
+    "desc": "A colorful multi-cartridge display set for a retro library.",
+    "specs": "Multi-piece set \u2022 Display stack \u2022 Collector friendly"
+  },
+  {
+    "id": 9,
+    "name": "Retro Memory Card",
+    "category": "Accessories",
+    "price": 14.99,
+    "badge": "Essential",
+    "img": "09-memory-card.jpg",
+    "desc": "Compact storage accessory for supported retro hardware.",
+    "specs": "Portable storage \u2022 Compact form \u2022 Protective shell"
+  },
+  {
+    "id": 10,
+    "name": "AV to HDMI Adapter",
+    "category": "Accessories",
+    "price": 22.99,
+    "badge": "Setup",
+    "img": "10-av-hdmi-adapter.jpg",
+    "desc": "Simple bridge for connecting legacy video hardware to modern displays.",
+    "specs": "AV input \u2022 HDMI output \u2022 Plug-and-play style"
+  },
+  {
+    "id": 11,
+    "name": "Console Power Adapter",
+    "category": "Accessories",
+    "price": 18.99,
+    "badge": "Essential",
+    "img": "11-power-adapter.jpg",
+    "desc": "Replacement-style power adapter for compatible classic systems.",
+    "specs": "Compact brick \u2022 Long cable \u2022 Indoor use"
+  },
+  {
+    "id": 12,
+    "name": "Classic Video Cable",
+    "category": "Accessories",
+    "price": 16.99,
+    "badge": "Essential",
+    "img": "12-video-cable.jpg",
+    "desc": "Clean replacement cable for legacy console connections.",
+    "specs": "Retro connector format \u2022 Shielded cable \u2022 Durable jacket"
+  },
+  {
+    "id": 13,
+    "name": "Console Cleaning Kit",
+    "category": "Care",
+    "price": 12.99,
+    "badge": "Care",
+    "img": "13-cleaning-kit.jpg",
+    "desc": "Soft brushes and cloths for keeping vintage hardware presentation-ready.",
+    "specs": "Brush set \u2022 Microfiber cloth \u2022 Cleaning spray bottle"
+  },
+  {
+    "id": 14,
+    "name": "Portable Console Case",
+    "category": "Accessories",
+    "price": 27.99,
+    "badge": "Travel",
+    "img": "14-travel-case.jpg",
+    "desc": "Protective zip case for handhelds, cables, and small accessories.",
+    "specs": "Hard-shell style \u2022 Zip closure \u2022 Storage pocket"
+  },
+  {
+    "id": 15,
+    "name": "Acrylic Display Stand",
+    "category": "Collectibles",
+    "price": 19.99,
+    "badge": "Display",
+    "img": "15-display-stand.jpg",
+    "desc": "Minimal clear stand for showcasing a favorite handheld or controller.",
+    "specs": "Clear acrylic \u2022 Desktop display \u2022 Compact footprint"
+  },
+  {
+    "id": 16,
+    "name": "Mini Arcade Cabinet",
+    "category": "Arcade",
+    "price": 129.99,
+    "badge": "Arcade",
+    "img": "16-mini-arcade.jpg",
+    "desc": "Desktop arcade-inspired cabinet for a dedicated retro corner.",
+    "specs": "Joystick \u2022 Action buttons \u2022 Desktop format"
+  },
+  {
+    "id": 17,
+    "name": "Retro Console Bundle",
+    "category": "Bundles",
+    "price": 159.99,
+    "badge": "Bundle",
+    "img": "01-classic-8bit-console.jpg",
+    "desc": "Console-focused starter bundle for a complete classic setup.",
+    "specs": "Console \u2022 Controller \u2022 Connection accessories"
+  },
+  {
+    "id": 18,
+    "name": "Collector Controller Set",
+    "category": "Bundles",
+    "price": 79.99,
+    "badge": "Bundle",
+    "img": "04-classic-controller.jpg",
+    "desc": "Multi-controller set for multiplayer retro sessions.",
+    "specs": "Multiple controllers \u2022 Wired setup \u2022 Group play"
+  },
+  {
+    "id": 19,
+    "name": "Arcade Starter Kit",
+    "category": "Bundles",
+    "price": 99.99,
+    "badge": "Bundle",
+    "img": "06-arcade-stick.jpg",
+    "desc": "Arcade-focused starter package for fighting and classic arcade games.",
+    "specs": "Arcade controller \u2022 Desktop setup \u2022 Collector appeal"
+  },
+  {
+    "id": 20,
+    "name": "Retro Care Essentials",
+    "category": "Care",
+    "price": 31.99,
+    "badge": "Care",
+    "img": "13-cleaning-kit.jpg",
+    "desc": "A compact care collection for maintaining your retro hardware.",
+    "specs": "Cleaning tools \u2022 Cloths \u2022 Storage pouch"
+  },
+  {
+    "id": 21,
+    "name": "Handheld Travel Pack",
+    "category": "Bundles",
+    "price": 49.99,
+    "badge": "Travel",
+    "img": "14-travel-case.jpg",
+    "desc": "Portable storage and protection for handheld gaming sessions.",
+    "specs": "Case \u2022 Accessory storage \u2022 Travel ready"
+  },
+  {
+    "id": 22,
+    "name": "Collector Display Kit",
+    "category": "Collectibles",
+    "price": 44.99,
+    "badge": "Display",
+    "img": "15-display-stand.jpg",
+    "desc": "A clean presentation kit for your favorite retro hardware.",
+    "specs": "Display stand \u2022 Protective presentation \u2022 Desktop use"
+  },
+  {
+    "id": 23,
+    "name": "Desktop Arcade Edition",
+    "category": "Arcade",
+    "price": 149.99,
+    "badge": "Limited",
+    "img": "16-mini-arcade.jpg",
+    "desc": "A compact arcade centerpiece designed for a dedicated gaming nook.",
+    "specs": "Arcade controls \u2022 Compact cabinet \u2022 Display piece"
+  },
+  {
+    "id": 24,
+    "name": "Classic Game Night Pack",
+    "category": "Bundles",
+    "price": 119.99,
+    "badge": "Bundle",
+    "img": "05-wireless-controller.jpg",
+    "desc": "A modernized retro setup for multiplayer evenings.",
+    "specs": "Wireless controller focus \u2022 Living-room friendly \u2022 Easy setup"
+  }
+]

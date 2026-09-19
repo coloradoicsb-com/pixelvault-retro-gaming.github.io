@@ -1,0 +1,1 @@
+The product imagery in this demo was generated specifically for PIXELVAULT and optimized for local web use. No third-party stock-image URLs are required for the storefront to render.

@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="PIXELVAULT — classic consoles, retro games, controllers, accessories and collectibles.">
+<title>PIXELVAULT — Classic Games. Timeless Memories.</title>
+<link rel="icon" href="assets/logo/pixelvault-logo.jpg">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="announcement">FREE SHIPPING ON ORDERS OVER $75 <span>•</span> SUPPORT AVAILABLE 7 DAYS A WEEK</div>
+
+<header class="site-header">
+  <a class="brand" href="#home" aria-label="PIXELVAULT home">
+    <img src="assets/logo/pixelvault-logo.jpg" alt="PIXELVAULT logo">
+    <div><strong>PIXELVAULT</strong><small>CLASSIC GAMES. TIMELESS MEMORIES.</small></div>
+  </a>
+  <nav class="main-nav" aria-label="Main navigation">
+    <a href="#shop">Shop</a><a href="#collections">Collections</a><a href="#story">Our Story</a><a href="#journal">Journal</a><a href="#support">Support</a>
+  </nav>
+  <div class="header-actions">
+    <button class="icon-btn" id="searchBtn" aria-label="Search">⌕</button>
+    <button class="icon-btn" id="wishlistBtn" aria-label="Wishlist">♡ <span id="wishCount">0</span></button>
+    <button class="cart-btn" id="cartBtn">Cart <span id="cartCount">0</span></button>
+  </div>
+</header>
+
+<div class="search-panel" id="searchPanel">
+  <input id="searchInput" type="search" placeholder="Search consoles, games, controllers..." aria-label="Search products">
+</div>
+
+<main id="home">
+<section class="hero">
+  <div class="hero-copy">
+    <span class="eyebrow">THE RETRO VAULT IS OPEN</span>
+    <h1>Bring the <em>classics</em> back.</h1>
+    <p>Discover a curated collection of classic consoles, retro games, controllers, arcade gear and collector accessories — presented with a modern shopping experience.</p>
+    <div class="hero-actions"><a class="btn primary" href="#shop">Explore the vault</a><a class="btn ghost" href="#story">Our story</a></div>
+    <div class="hero-stats"><div><b>24</b><span>Featured products</span></div><div><b>9</b><span>Departments</span></div><div><b>7-day</b><span>Support</span></div></div>
+  </div>
+  <div class="hero-art">
+    <div class="scanline"></div>
+    <img src="assets/images/16-mini-arcade.jpg" alt="Mini arcade cabinet">
+    <div class="hero-card"><span>FEATURED</span><b>Mini Arcade Cabinet</b><strong>$129.99</strong></div>
+  </div>
+</section>
+
+<section class="ticker"><div>CONSOLES</div><div>CARTRIDGES</div><div>ARCADE</div><div>CONTROLLERS</div><div>COLLECTIBLES</div><div>ACCESSORIES</div></section>
+
+<section class="section" id="collections">
+  <div class="section-head"><div><span class="eyebrow">CURATED COLLECTIONS</span><h2>Find your era.</h2></div><p>From living-room consoles to desktop arcade gear, PIXELVAULT brings the visual language of classic gaming into one organized collection.</p></div>
+  <div class="collection-grid">
+    <a class="collection-card c1" href="#shop" data-category="Consoles"><span>01</span><h3>Console Classics</h3><p>Systems built around the golden age of home gaming.</p><b>Shop consoles →</b></a>
+    <a class="collection-card c2" href="#shop" data-category="Games"><span>02</span><h3>Game Library</h3><p>Cartridges, physical editions and collector pieces.</p><b>Browse games →</b></a>
+    <a class="collection-card c3" href="#shop" data-category="Controllers"><span>03</span><h3>Arcade Controls</h3><p>Controllers and sticks made for serious retro sessions.</p><b>View controllers →</b></a>
+    <a class="collection-card c4" href="#shop" data-category="Collectibles"><span>04</span><h3>Collector Corner</h3><p>Display pieces and accessories for your gaming space.</p><b>Explore collectibles →</b></a>
+  </div>
+</section>
+
+<section class="section shop-section" id="shop">
+  <div class="section-head">
+    <div><span class="eyebrow">THE SHOP</span><h2>Inside the vault.</h2></div>
+    <p>Browse the current collection. Use categories, search, wishlist, quick view and cart tools to explore the catalog.</p>
+  </div>
+  <div class="shop-tools">
+    <div class="filters" id="filters"></div>
+    <select id="sortSelect" aria-label="Sort products">
+      <option value="featured">Sort: Featured</option><option value="low">Price: Low to high</option><option value="high">Price: High to low</option><option value="az">Name: A–Z</option>
+    </select>
+  </div>
+  <div class="product-grid" id="productGrid"></div>
+</section>
+
+<section class="editorial">
+  <div class="editorial-image"><img src="assets/images/02-16bit-console.jpg" alt="Retro console product photography"></div>
+  <div class="editorial-copy"><span class="eyebrow">THE PIXELVAULT STANDARD</span><h2>Retro, without the clutter.</h2><p>Every collection is presented with a clean visual system, consistent product cards and a focus on the hardware itself. The experience is nostalgic in spirit and modern in execution.</p><ul><li>Curated retro-focused catalog</li><li>Clean product presentation</li><li>Responsive shopping experience</li><li>Support-first storefront design</li></ul><a class="btn primary" href="#support">Talk to support</a></div>
+</section>
+
+<section class="section story" id="story">
+  <div class="section-head"><div><span class="eyebrow">OUR STORY</span><h2>Built for the memory.</h2></div><p>PIXELVAULT started with a simple idea: classic games deserve a modern home that respects their history.</p></div>
+  <div class="story-grid">
+    <article><b>01</b><h3>Discover</h3><p>Find hardware and accessories that bring familiar eras back into focus.</p></article>
+    <article><b>02</b><h3>Collect</h3><p>Build a shelf, a gaming corner or a personal library around the pieces you love.</p></article>
+    <article><b>03</b><h3>Play</h3><p>Whether you are revisiting a favorite or discovering a classic, the goal is simple: play.</p></article>
+  </div>
+</section>
+
+<section class="journal" id="journal">
+  <div class="section-head"><div><span class="eyebrow">FROM THE JOURNAL</span><h2>Notes from the vault.</h2></div><p>Editorial-style content for collectors, players and anyone interested in gaming history.</p></div>
+  <div class="journal-grid">
+    <article><span>COLLECTING</span><h3>How to build a retro shelf without the clutter</h3><p>Practical ideas for organizing consoles, cartridges and display pieces.</p><a href="#support">Read article →</a></article>
+    <article><span>SETUPS</span><h3>Connecting classic hardware to modern displays</h3><p>A simple guide to adapters, cables and clean living-room setups.</p><a href="#support">Read article →</a></article>
+    <article><span>CARE</span><h3>Keeping vintage hardware presentation-ready</h3><p>Cleaning, storage and display habits that protect your collection.</p><a href="#support">Read article →</a></article>
+  </div>
+</section>
+
+<section class="support" id="support">
+  <div class="support-copy"><span class="eyebrow">SUPPORT CENTER</span><h2>Need a hand with your setup?</h2><p>Questions about compatibility, accessories, product details or an order? Our support team is here to help.</p>
+    <div class="support-cards"><div><span>EMAIL</span><b>support@pixelvault.example</b><small>Replies within one business day.</small></div><div><span>PHONE</span><b>+1 (305) 555-0198</b><small>Mon–Sun · 9:00 AM–7:00 PM ET</small></div><div><span>ORDER HELP</span><b>Order Assistance</b><small>Have your order number ready.</small></div></div>
+  </div>
+  <form class="support-form" id="supportForm"><h3>Send a message</h3><label>Name<input required name="name" placeholder="Your name"></label><label>Email<input required type="email" name="email" placeholder="you@example.com"></label><label>Topic<select name="topic"><option>Product question</option><option>Order support</option><option>Compatibility</option><option>Returns</option><option>General inquiry</option></select></label><label>Message<textarea required name="message" rows="5" placeholder="How can we help?"></textarea></label><button class="btn primary" type="submit">Send support request</button><p class="form-note" id="formNote"></p></form>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="footer-brand"><strong>PIXELVAULT</strong><p>Classic Games. Timeless Memories.</p></div>
+  <div><h4>Shop</h4><a href="#shop">All products</a><a href="#collections">Collections</a><a href="#shop">Bundles</a></div>
+  <div><h4>Company</h4><a href="#story">Our story</a><a href="#journal">Journal</a><a href="#support">Support</a></div>
+  <div><h4>Contact</h4><a href="mailto:support@pixelvault.example">support@pixelvault.example</a><a href="tel:+13055550198">+1 (305) 555-0198</a></div>
+  <div class="copyright">© 2026 PIXELVAULT Retro Gaming. Demo storefront concept.</div>
+</footer>
+
+<div class="overlay" id="overlay"></div>
+<aside class="drawer" id="cartDrawer" aria-label="Shopping cart"><div class="drawer-head"><h3>Your Cart</h3><button class="close" data-close="cartDrawer">×</button></div><div id="cartItems" class="drawer-body"></div><div class="drawer-total"><span>Subtotal</span><strong id="cartSubtotal">$0.00</strong></div><button class="btn primary wide" id="checkoutBtn">Checkout</button><p class="tiny">Demo storefront — checkout is not connected to a payment provider.</p></aside>
+<aside class="drawer" id="wishDrawer" aria-label="Wishlist"><div class="drawer-head"><h3>Wishlist</h3><button class="close" data-close="wishDrawer">×</button></div><div id="wishItems" class="drawer-body"></div></aside>
+
+<div class="modal" id="productModal"><div class="modal-box"><button class="close" data-close="productModal">×</button><div id="modalContent"></div></div></div>
+
+<script>
+const PRODUCTS = [{"id": 1, "name": "Classic 8-Bit Console", "category": "Consoles", "price": 89.99, "badge": "Retro Pick", "img": "01-classic-8bit-console.jpg", "desc": "Compact classic-style console for a nostalgic living-room setup.", "specs": "AV output \u2022 2 controller ports \u2022 Compact design"}, {"id": 2, "name": "16-Bit Retro Console", "category": "Consoles", "price": 119.99, "badge": "Featured", "img": "02-16bit-console.jpg", "desc": "A sleek 16-bit inspired system built for classic game nights.", "specs": "HD-ready adapter support \u2022 2 ports \u2022 Retro styling"}, {"id": 3, "name": "Pocket Pixel Handheld", "category": "Handhelds", "price": 74.99, "badge": "New", "img": "03-retro-handheld.jpg", "desc": "Pocket-sized handheld with a clean, nostalgic silhouette.", "specs": "Portable form factor \u2022 D-pad \u2022 Color display"}, {"id": 4, "name": "Classic Gamepad", "category": "Controllers", "price": 29.99, "badge": "Best Seller", "img": "04-classic-controller.jpg", "desc": "Comfortable wired controller inspired by the classic era.", "specs": "Wired \u2022 D-pad \u2022 Dual action buttons"}, {"id": 5, "name": "Wireless Retro Controller", "category": "Controllers", "price": 39.99, "badge": "Popular", "img": "05-wireless-controller.jpg", "desc": "Modern wireless convenience with a timeless controller layout.", "specs": "Wireless \u2022 Dual sticks \u2022 Rechargeable"}, {"id": 6, "name": "Arcade Fight Stick", "category": "Controllers", "price": 69.99, "badge": "Arcade", "img": "06-arcade-stick.jpg", "desc": "Full-size arcade controls for fighting games and arcade classics.", "specs": "Joystick \u2022 6-button layout \u2022 Desktop base"}, {"id": 7, "name": "Classic Cartridge", "category": "Games", "price": 24.99, "badge": "Collector", "img": "07-cartridge.jpg", "desc": "Physical cartridge-style collectible for classic gaming shelves.", "specs": "Cartridge format \u2022 Display ready \u2022 Collector item"}, {"id": 8, "name": "Cartridge Collection Set", "category": "Games", "price": 54.99, "badge": "Bundle", "img": "08-cartridge-stack.jpg", "desc": "A colorful multi-cartridge display set for a retro library.", "specs": "Multi-piece set \u2022 Display stack \u2022 Collector friendly"}, {"id": 9, "name": "Retro Memory Card", "category": "Accessories", "price": 14.99, "badge": "Essential", "img": "09-memory-card.jpg", "desc": "Compact storage accessory for supported retro hardware.", "specs": "Portable storage \u2022 Compact form \u2022 Protective shell"}, {"id": 10, "name": "AV to HDMI Adapter", "category": "Accessories", "price": 22.99, "badge": "Setup", "img": "10-av-hdmi-adapter.jpg", "desc": "Simple bridge for connecting legacy video hardware to modern displays.", "specs": "AV input \u2022 HDMI output \u2022 Plug-and-play style"}, {"id": 11, "name": "Console Power Adapter", "category": "Accessories", "price": 18.99, "badge": "Essential", "img": "11-power-adapter.jpg", "desc": "Replacement-style power adapter for compatible classic systems.", "specs": "Compact brick \u2022 Long cable \u2022 Indoor use"}, {"id": 12, "name": "Classic Video Cable", "category": "Accessories", "price": 16.99, "badge": "Essential", "img": "12-video-cable.jpg", "desc": "Clean replacement cable for legacy console connections.", "specs": "Retro connector format \u2022 Shielded cable \u2022 Durable jacket"}, {"id": 13, "name": "Console Cleaning Kit", "category": "Care", "price": 12.99, "badge": "Care", "img": "13-cleaning-kit.jpg", "desc": "Soft brushes and cloths for keeping vintage hardware presentation-ready.", "specs": "Brush set \u2022 Microfiber cloth \u2022 Cleaning spray bottle"}, {"id": 14, "name": "Portable Console Case", "category": "Accessories", "price": 27.99, "badge": "Travel", "img": "14-travel-case.jpg", "desc": "Protective zip case for handhelds, cables, and small accessories.", "specs": "Hard-shell style \u2022 Zip closure \u2022 Storage pocket"}, {"id": 15, "name": "Acrylic Display Stand", "category": "Collectibles", "price": 19.99, "badge": "Display", "img": "15-display-stand.jpg", "desc": "Minimal clear stand for showcasing a favorite handheld or controller.", "specs": "Clear acrylic \u2022 Desktop display \u2022 Compact footprint"}, {"id": 16, "name": "Mini Arcade Cabinet", "category": "Arcade", "price": 129.99, "badge": "Arcade", "img": "16-mini-arcade.jpg", "desc": "Desktop arcade-inspired cabinet for a dedicated retro corner.", "specs": "Joystick \u2022 Action buttons \u2022 Desktop format"}, {"id": 17, "name": "Retro Console Bundle", "category": "Bundles", "price": 159.99, "badge": "Bundle", "img": "01-classic-8bit-console.jpg", "desc": "Console-focused starter bundle for a complete classic setup.", "specs": "Console \u2022 Controller \u2022 Connection accessories"}, {"id": 18, "name": "Collector Controller Set", "category": "Bundles", "price": 79.99, "badge": "Bundle", "img": "04-classic-controller.jpg", "desc": "Multi-controller set for multiplayer retro sessions.", "specs": "Multiple controllers \u2022 Wired setup \u2022 Group play"}, {"id": 19, "name": "Arcade Starter Kit", "category": "Bundles", "price": 99.99, "badge": "Bundle", "img": "06-arcade-stick.jpg", "desc": "Arcade-focused starter package for fighting and classic arcade games.", "specs": "Arcade controller \u2022 Desktop setup \u2022 Collector appeal"}, {"id": 20, "name": "Retro Care Essentials", "category": "Care", "price": 31.99, "badge": "Care", "img": "13-cleaning-kit.jpg", "desc": "A compact care collection for maintaining your retro hardware.", "specs": "Cleaning tools \u2022 Cloths \u2022 Storage pouch"}, {"id": 21, "name": "Handheld Travel Pack", "category": "Bundles", "price": 49.99, "badge": "Travel", "img": "14-travel-case.jpg", "desc": "Portable storage and protection for handheld gaming sessions.", "specs": "Case \u2022 Accessory storage \u2022 Travel ready"}, {"id": 22, "name": "Collector Display Kit", "category": "Collectibles", "price": 44.99, "badge": "Display", "img": "15-display-stand.jpg", "desc": "A clean presentation kit for your favorite retro hardware.", "specs": "Display stand \u2022 Protective presentation \u2022 Desktop use"}, {"id": 23, "name": "Desktop Arcade Edition", "category": "Arcade", "price": 149.99, "badge": "Limited", "img": "16-mini-arcade.jpg", "desc": "A compact arcade centerpiece designed for a dedicated gaming nook.", "specs": "Arcade controls \u2022 Compact cabinet \u2022 Display piece"}, {"id": 24, "name": "Classic Game Night Pack", "category": "Bundles", "price": 119.99, "badge": "Bundle", "img": "05-wireless-controller.jpg", "desc": "A modernized retro setup for multiplayer evenings.", "specs": "Wireless controller focus \u2022 Living-room friendly \u2022 Easy setup"}];
+const CATEGORIES = ["All", "Consoles", "Games", "Controllers", "Handhelds", "Accessories", "Arcade", "Bundles", "Care", "Collectibles"];
+let cart = JSON.parse(localStorage.getItem('pv-cart') || '[]');
+let wishlist = JSON.parse(localStorage.getItem('pv-wishlist') || '[]');
+
+const gridEl = document.getElementById('productGrid');
+const filtersEl = document.getElementById('filters');
+const searchInput = document.getElementById('searchInput');
+const sortSelect = document.getElementById('sortSelect');
+
+function money(v) { return new Intl.NumberFormat('en-US', {style:'currency',currency:'USD'}).format(v); }
+function save() { localStorage.setItem('pv-cart', JSON.stringify(cart)); localStorage.setItem('pv-wishlist', JSON.stringify(wishlist)); updateCounts(); }
+function updateCounts() {
+  document.getElementById('cartCount').textContent = cart.reduce((s,x)=>s+x.qty,0);
+  document.getElementById('wishCount').textContent = wishlist.length;
+}
+function renderFilters(active='All') {
+  filtersEl.innerHTML = CATEGORIES.map(c => `<button class="filter ${c===active?'active':''}" data-filter="${c}">${c}</button>`).join('');
+  filtersEl.querySelectorAll('.filter').forEach(btn => btn.onclick = () => { renderProducts(btn.dataset.filter, searchInput.value); });
+}
+function productCard(p) {
+  const wished = wishlist.includes(p.id);
+  return `<article class="product-card">
+    <button class="wish ${wished?'on':''}" data-wish="${p.id}" aria-label="Wishlist">${wished?'♥':'♡'}</button>
+    <button class="quick" data-quick="${p.id}">Quick view</button>
+    <div class="product-image"><img src="assets/images/${p.img}" alt="${p.name}" loading="lazy"><span>${p.badge}</span></div>
+    <div class="product-info"><small>${p.category}</small><h3>${p.name}</h3><p>${p.desc}</p><div class="product-bottom"><strong>${money(p.price)}</strong><button class="add" data-add="${p.id}">Add to cart</button></div></div>
+  </article>`;
+}
+function renderProducts(active='All', query='') {
+  renderFilters(active);
+  let list = PRODUCTS.filter(p => (active==='All'||p.category===active) && (p.name+' '+p.category+' '+p.desc).toLowerCase().includes(query.toLowerCase()));
+  const s = sortSelect.value;
+  if(s==='low') list.sort((a,b)=>a.price-b.price);
+  if(s==='high') list.sort((a,b)=>b.price-a.price);
+  if(s==='az') list.sort((a,b)=>a.name.localeCompare(b.name));
+  gridEl.innerHTML = list.length ? list.map(productCard).join('') : `<div class="empty">No products found. Try another search or category.</div>`;
+  bindCards();
+}
+function bindCards() {
+  document.querySelectorAll('[data-add]').forEach(b => b.onclick=()=>addToCart(+b.dataset.add));
+  document.querySelectorAll('[data-wish]').forEach(b => b.onclick=()=>toggleWish(+b.dataset.wish));
+  document.querySelectorAll('[data-quick]').forEach(b => b.onclick=()=>quickView(+b.dataset.quick));
+}
+function addToCart(id) {
+  const p=PRODUCTS.find(x=>x.id===id); const found=cart.find(x=>x.id===id);
+  if(found) found.qty++; else cart.push({id,qty:1});
+  save(); openDrawer('cartDrawer'); renderCart();
+}
+function toggleWish(id) {
+  wishlist = wishlist.includes(id) ? wishlist.filter(x=>x!==id) : [...wishlist,id];
+  save(); renderProducts(currentCategory, searchInput.value); renderWishlist();
+}
+function removeCart(id) { cart=cart.filter(x=>x.id!==id); save(); renderCart(); }
+function changeQty(id, delta) { const x=cart.find(x=>x.id===id); if(!x)return; x.qty+=delta; if(x.qty<=0)removeCart(id); else {save();renderCart();} }
+function renderCart() {
+  const el=document.getElementById('cartItems');
+  if(!cart.length) {el.innerHTML='<div class="empty">Your cart is empty. Add a classic to get started.</div>'; document.getElementById('cartSubtotal').textContent='$0.00'; return;}
+  let total=0;
+  el.innerHTML=cart.map(item=>{const p=PRODUCTS.find(x=>x.id===item.id); total+=p.price*item.qty; return `<div class="cart-item"><img src="assets/images/${p.img}" alt=""><div><b>${p.name}</b><small>${money(p.price)}</small><div class="qty"><button onclick="changeQty(${p.id},-1)">−</button><span>${item.qty}</span><button onclick="changeQty(${p.id},1)">+</button><button class="remove" onclick="removeCart(${p.id})">Remove</button></div></div></div>`}).join('');
+  document.getElementById('cartSubtotal').textContent=money(total);
+}
+function renderWishlist() {
+  const el=document.getElementById('wishItems');
+  const items=PRODUCTS.filter(p=>wishlist.includes(p.id));
+  el.innerHTML=items.length ? items.map(p=>`<div class="cart-item"><img src="assets/images/${p.img}" alt=""><div><b>${p.name}</b><small>${money(p.price)}</small><button class="add" onclick="addToCart(${p.id})">Add to cart</button></div></div>`).join('') : '<div class="empty">Your wishlist is empty.</div>';
+}
+function quickView(id) {
+  const p=PRODUCTS.find(x=>x.id===id);
+  document.getElementById('modalContent').innerHTML=`<div class="modal-product"><img src="assets/images/${p.img}" alt="${p.name}"><div><span class="eyebrow">${p.category}</span><h2>${p.name}</h2><p>${p.desc}</p><div class="modal-price">${money(p.price)}</div><p class="specs">${p.specs}</p><button class="btn primary" onclick="addToCart(${p.id});closeAll()">Add to cart</button></div></div>`;
+  document.getElementById('productModal').classList.add('open');
+}
+let currentCategory='All';
+function openDrawer(id) { document.getElementById(id).classList.add('open'); document.getElementById('overlay').classList.add('open'); }
+function closeAll() { document.querySelectorAll('.drawer,.modal,.overlay').forEach(x=>x.classList.remove('open')); }
+document.querySelectorAll('[data-close]').forEach(b=>b.onclick=closeAll);
+document.getElementById('overlay').onclick=closeAll;
+document.getElementById('cartBtn').onclick=()=>{renderCart();openDrawer('cartDrawer')};
+document.getElementById('wishlistBtn').onclick=()=>{renderWishlist();openDrawer('wishDrawer')};
+document.getElementById('searchBtn').onclick=()=>{document.getElementById('searchPanel').classList.toggle('open');searchInput.focus()};
+searchInput.oninput=()=>renderProducts(currentCategory,searchInput.value);
+sortSelect.onchange=()=>renderProducts(currentCategory,searchInput.value);
+document.querySelectorAll('.collection-card').forEach(c=>c.onclick=()=>{currentCategory=c.dataset.category; document.getElementById('shop').scrollIntoView({behavior:'smooth'}); renderProducts(currentCategory,'')});
+document.getElementById('checkoutBtn').onclick=()=>alert('Demo checkout: connect your preferred payment provider before launch.');
+document.getElementById('supportForm').onsubmit=(e)=>{e.preventDefault();document.getElementById('formNote').textContent='Thanks! Your support request is ready to be connected to your email/helpdesk service.';e.target.reset();};
+renderProducts(); updateCounts();
+</script>
+</body>
+</html>
